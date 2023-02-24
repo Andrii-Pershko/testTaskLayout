@@ -233,7 +233,7 @@ nav {
 /*/*===============HERO===============*/
 
 .hero {
-	background-image: url(./img/jpeg/ornella-hero.jpg);
+	background-image: url(../img/jpeg/ornella-hero.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 785px;
