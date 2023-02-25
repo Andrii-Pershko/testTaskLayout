@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<main>
-			<header>
+			<header id="start">
 				<div class="container header">
 					<div class="contacts header_social">
 						<p>Ми в соціальних мережах:</p>
@@ -44,34 +44,25 @@
 								</a>
 							</li>
 						</ul>
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-							<path
-								d="M17 2H7C5.89543 2 5 2.89543 5 4V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V4C19 2.89543 18.1046 2 17 2Z"
-								stroke="#1E2E36"
-								stroke-width="1.5"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-							<path
-								d="M12 18H12.01"
-								stroke="#1E2E36"
-								stroke-width="1.5"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-						</svg>
+
+						<div class="telephone">
+							<svg class="svg-smartphone-top" width="24" height="24">
+								<use href="./img/svg/symbol-defs.svg#icon-smartphone"></use>
+							</svg>
 						<a class="link link-number" href="tel:+390991112233"> (099) 111 22 33 </a>
 						<svg class="svg-contact" width="12" height="11">
 							<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
-						</svg>
+						</svg></div>
+
+						
 					</div>
 					<nav>
-						<ul class="navigation-list">
-							<li class="active-page"><a href="">ГОЛОВНА</a> </li>
-							<li><a href="">АКЦІЇ</a> </li>
-							<li> <a href="">ДОСТАВКА ТА ОПЛАТА</a> </li>
-							<li> <a href="">ПРО НАС</a> </li>
-							<li> <a href="">КОНТАКТИ</a> </li>
+						<ul class="navigation-list ">
+							<li class="active-page"><a class="nav-items" href="">ГОЛОВНА</a> </li>
+							<li> <a class="nav-items" href="">АКЦІЇ</a> </li>
+							<li> <a class="nav-items" href="">ДОСТАВКА ТА ОПЛАТА</a> </li>
+							<li> <a class="nav-items" href="">ПРО НАС</a> </li>
+							<li> <a class="nav-items" href="">КОНТАКТИ</a> </li>
 						</ul>
 					</nav>
 				</div>
@@ -81,37 +72,37 @@
 				<div class="container catalog">
 					<ul class="catalog_list">
 						<li class="catalog_item-list">
-							<a href="">ДИВАНИ <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">ДИВАНИ <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
 						</li>
 						<li class="catalog_item-list">
-							<a href="">ЛІЖКА <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">ЛІЖКА <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
 						</li>
 						<li class="catalog_item-list">
-							<a href="">КРІСЛА <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">КРІСЛА <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
 						</li>
 						<li class="catalog_item-list">
-							<a href="">КОМОДИ <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">КОМОДИ <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
 						</li>
 						<li class="catalog_item-list">
-							<a href="">ШАФИ <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">ШАФИ <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
 						</li>
 						<li class="catalog_item-list">
-							<a href="">КУХНЯ <svg class="svg-contact" width="12" height="11">
+							<a class="nav-items" href="">КУХНЯ <svg class="svg-contact" width="12" height="11">
 								<use href="./img/svg/symbol-defs.svg#icon-arrow-btm"></use>
 							</svg></a
 							>
@@ -123,7 +114,7 @@
 						</svg>
 					</a>
 					<div class="do-sell">
-						<a href="" class="bag">
+						<a href="" class="bag nav-items"> 
 							<svg class="svg-contact" width="30" height="30">
 								<use href="./img/svg/symbol-defs.svg#icon-shopping-cart"></use>
 							</svg>
@@ -347,15 +338,16 @@
 					</div>
 				</div>
 			</section>
+			<a href="#start" class="up">
+				<svg class="svg-up" width="50" height="50">
+					<use href="./img/svg/symbol-defs.svg#icon-up"></use>
+				</svg>
+			</a>
 		</main>
 		<footer>
 			<div class="container footer">
 				<div class="left-side-footer">
-					<a href="">
-						<svg class="svg-contact" width="360" height="75">
-							<use href="./img/svg/symbol-defs.svg#icon-logo-btm"></use>
-						</svg>
-					</a>
+					
 					<div class="footer-elem">
 						
 						<ul class="footer-list">
@@ -397,21 +389,21 @@
 								<p>Ми в соціальних мережах:</p>
 								<ul class="list contacts-list-bottom">
 									<li class="list-items">
-										<a href="">
+										<a href="https://telegram.org/" target="_blank">
 											<svg class="svg-contact" width="40" height="40">
 												<use href="./img/svg/symbol-defs.svg#icon-Telegram"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="list-items">
-										<a href="">
+										<a href="https://www.facebook.com/"  target="_blank">
 											<svg class="svg-contact" width="40" height="40">
 												<use href="./img/svg/symbol-defs.svg#icon-Facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="list-items">
-										<a href="">
+										<a href="https://www.instagram.com/">
 											<svg class="svg-contact" width="40" height="40">
 												<use href="./img/svg/symbol-defs.svg#icon-Instagram"></use>
 											</svg>
