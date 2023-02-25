@@ -531,6 +531,11 @@ article:focus .name-items {
 	background-color: #44c697;
 }
 
+.back-price {
+	font-size: 18px;
+	color: rgb(155, 155, 155);
+}
+
 /*===============CATALOG===============*/
 
 /*===============ABOUT===============*/
