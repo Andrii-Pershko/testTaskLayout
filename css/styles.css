@@ -754,6 +754,9 @@ margin-bottom: 15px;
 	display: flex;
 }
 
+.svipers > a {
+	display: inline;
+}
  .footer-color-number{
 	margin-left: 32px;
 	margin-bottom: 30px;
